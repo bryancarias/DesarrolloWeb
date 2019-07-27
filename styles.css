@@ -1,0 +1,63 @@
+body {
+    clear: both;
+    margin: 50px auto;
+    width: 80%;
+    text-align: left;
+    background-color:#EEE;
+
+}
+
+.Main {
+    background-color: #FFF;
+    border-radius: 5PX;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.content{
+    padding-left: 2%;
+}
+
+.pageHeader nav {
+    background: #2BA6CB;
+    height: 40px;
+    line-height:  30px;
+    margin: 0 auto 30px auto;
+    text-align:  center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+
+.pageHeader nav ul {
+    margin: 0 auto;
+}
+
+.pageHeader nav ul li {
+    float: left;
+    display:  inline;
+}
+
+.pageHeader nav a:link, .pageHeader nav a:visited{
+color: #fff;
+display: inline-block;
+height: 30px;
+padding: 5px 23px;
+text-decoration: none;
+}
+
+.pageHeader nav a:hover, .pageHeader nav a:active,
+.pageHeader nav .active a:link, .pageHeader nav .active a:visited {
+ background: #2795B6;
+ color: #fff;   
+}
+
+.Main {
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.Top {
+    margin-bottom:  3%;
+}
